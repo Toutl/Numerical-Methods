@@ -37,7 +37,7 @@ for i = 1:max_iters
     if error < tolerance, break; end
 
     B = [A; d f(d)];
-    [~, sort_idx] = sort(B(:, 2));
+    [~, sort_idx] = sort(abs(B(:, 2)));
     A = B(sort_idx(1:3), :);
 
     a = A(1, 1);
