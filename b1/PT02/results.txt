@@ -1,0 +1,11 @@
+General tolerance = 1e-06.
+
+Bisection convergence, x = 0.36577, after 22 iterations. (parameters: [a=0, b=3])
+
+Newton-Raphson convergence, x = 0.36577, after 4 iterations. (parameters: x_0=0)
+
+Secant convergence, x = 0.36577, after 8 iterations. (parameters: x_0=0, x_1=3)
+
+Fixed-point convergence, x = 0.36577, after 16 iterations. (parameters: x_0=0, cleared="second x, e^{-0.5x}")
+
+Parabolic interpolation convergence, x = 3.12124, after 7 iterations. (parameters: a=2, b=4, c=6)
